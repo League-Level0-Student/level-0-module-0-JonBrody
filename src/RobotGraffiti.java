@@ -6,6 +6,11 @@ import org.jointheleague.graphical.robot.Robot;
 public class RobotGraffiti {
 public static void main(String[] args) {
 	Robot bobafett=new Robot("batman");
+	
+	
+	
+	
+	bobafett.turn(90);
 	bobafett.penDown();
 	bobafett.setSpeed(10);
 	bobafett.sparkle();
@@ -17,8 +22,37 @@ public static void main(String[] args) {
 	}
 bobafett.turn(180);
 for(int i=0; i <180;i++) {
-	bobafett.move(1);
-	bobafett.turn(1);
+	bobafett.move(8);
+	bobafett.turn(2);
+	bobafett.turn(90);
+	for(int i1=0; i1 <500;i1++);
+	bobafett.move(160);
+	Robot mmm=new Robot("vic");
+	mmm.penDown();
+	mmm.setSpeed(10);
+	mmm.sparkle();
+	mmm.move(200);
+	mmm.turn(90);
+	mmm.move(78);
+	Robot nnn=new Robot();
+	nnn.penDown();
+	nnn.setSpeed(10);
+	nnn.sparkle();
+	nnn.turn(270);
+	nnn.move(150);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
 	
 	
